@@ -13,3 +13,5 @@ services:
       - vm-monitor
     restart: unless-stopped
 
+  networks:
+    vm-monitor:
